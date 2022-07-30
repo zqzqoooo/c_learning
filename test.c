@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-int main()
-{
+int main(){
 		int number = 37;
-		_Bool flag = 1;
+		bool flag = 1;
     	for(int i = 2;i <= number / 2;i++)
         {
         	if(number % i == 0)
