@@ -18,16 +18,18 @@ char card5[40] = "测试卡5";
 
 int point[32] = {0};//骰子点数，最多32个
 
+int enemy_blood = 100;//敌人血量
+int enemy_attack;//敌人攻击
+int player_blood = 100;//角色血量
+int point_max,point_min;//骰子点数最大最小
+
+
+char player_name [10] = "胡桃";//角色名
+char enemy_name [10] = "北风狼";//敌人命
+
+
 
 int main(int argc, char const *argv[]){
-
-    char player_name [10] = "胡桃";//角色名
-    char enemy_name [10] = "北风狼";//敌人命
-
-    int player_blood = 100;//角色血量
-    int enemy_blood = 100;//敌人血量
-    int enemy_attack;//敌人攻击
-    int point_max,point_min;//骰子点数最大最小
 
     // enemy_attribute(&enemy_blood,&enemy_attack);//手动设置生命
 
