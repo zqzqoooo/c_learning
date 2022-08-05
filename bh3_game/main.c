@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 #include "code.h"
-#include "Array_create.h"
+#include "Array.h"
 
 int attribute_return = 0;//角色和怪物状态 1为有 0为无 -1为错误
 

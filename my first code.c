@@ -168,34 +168,34 @@ int main(){
 //Test 8  输出前50个质数
 //******************************   
     
-    // int x,i;
-    // int z = 1;
-    // int isprime = 1;
-    // int number;
-    // scanf("%d",&number);
+    int x,i;
+    int z = 1;
+    int isprime = 1;
+    int number;
+    scanf("%d",&number);
 
-    // for (x = 2; z <= number; x++)  
-    // {
-    //     for (i = 2; i < x ; i++)
-    //     {
-    //         if (x%i == 0)
-    //         {
-    //         isprime = 0;
-    //         break;
-    //         }
-    //     }
+    for (x = 2; z <= number; x++)  
+    {
+        for (i = 2; i < x ; i++)
+        {
+            if (x%i == 0)
+            {
+            isprime = 0;
+            break;
+            }
+        }
 
-    //     if (isprime == 1){
-    //         printf("%d ",x);
-    //         if (z%5 == 0)
-    //         {
-    //             printf("\n");
-    //         }
-    //         z++;
-    //     }
+        if (isprime == 1){
+            printf("%d ",x);
+            if (z%5 == 0)
+            {
+                printf("\n");
+            }
+            z++;
+        }
 
-    //     isprime = 1;
-    // }
+        isprime = 1;
+    }
 
 
 //******************************

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-struct tradition {
+typedef struct tradition{
     int attack;
     int agile;
     int mysterious;
@@ -9,6 +9,7 @@ struct tradition {
 int main(){
 
     struct tradition name;
+    
     
     name.attack = 5;
     name.agile = 5;
